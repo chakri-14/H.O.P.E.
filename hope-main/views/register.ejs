@@ -1,0 +1,93 @@
+<%- include('partials/header') %>
+<body>
+s
+</form> -->
+<div class="heading">
+ 
+  <div class="heading-content">
+    
+     <h1>Register for HOPE</h1>
+  </div>
+</div>
+<div class="container">
+  <form method="post" autocomplete="on" action="/register" >
+    <!--First name-->
+    <div class="box">
+      <label for="aadhaar" class="fl fontLabel" > Aadhaar: </label>
+      <div class="new iconBox">
+        <i class="fa fa-user" aria-hidden="true"></i>
+      </div>
+      <div class="fr">
+          <input type="text" name="aadhaar" placeholder="aadhaar no"
+          class="textBox" autofocus="on" required>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <!--First name-->
+
+
+    <!--Second name-->
+    <div class="box">
+      <label for="phone_number" class="fl fontLabel"> Mobile number: </label>
+      <div class="fl iconBox"><i class="fa fa-user" aria-hidden="true"></i></div>
+      <div class="fr">
+          <input type="text" required name="phone_number"
+          placeholder="phone number" class="textBox">
+      </div>
+      <div class="clr"></div>
+    </div>
+    <!---Password------>
+    <div class="box">
+      <label for="password" class="fl fontLabel"> Password: </label>
+      <div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+      <div class="fr">
+          <input type="Password" required name="password" placeholder="Password" class="textBox">
+      </div>
+      <div class="clr"></div>
+    </div>
+    
+    
+    <div class="box radio">
+      <label for="gender" class="fl fontLabel"> Occupation: </label>
+        <input type="radio" name="occupation" value="Carpenter" > Carpenter &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="radio" name="occupation" value="Mechanic" > Mechanic
+      
+    </div>
+    <div class="box radio">
+      <label for="gender" class="fl fontLabel"> Addon: </label>
+        <input type="radio" name="occupation" value="Plumber" > Plumber &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="radio" name="occupation" value="Painter" > Painter
+      
+    </div>
+    
+
+
+    
+    <!-- <div class="box terms">
+        <input type="checkbox" name="Terms" required> &nbsp; I accept the terms and conditions
+    </div> -->
+    <!--Terms and Conditions----
+
+
+
+    <!---Submit Button------>
+    <div class="box" style="background: #2d3e3f" >
+        <input  type="Submit" name="Submit" class="submit" value="SUBMIT">
+    </div>
+    <!---Submit Button----->
+  </form>
+</div>
+<div class="note">
+  <div class="note-cont">
+     <p><span style="color: red; font-weight: bold;">NOTE: </span> If you want to provide only work...then no need of selecting occupation and addon !</p>
+  </div>
+</div>
+<i class="fa-solid fa-hand-holding-heart benifits-icon" style="color: #e0e2e5;"></i>
+<div class="benifits"></div>
+  <div class="benifits-cont">
+    <p class="benifits-info">Registering in this makes you in connection with the work information..It provides the friendly connection with both customer</p>
+  </div>
+
+
+
+<%- include('partials/footer') %>

@@ -1,0 +1,89 @@
+<%- include('partials/header') %>
+<body>
+
+  <div class="container">
+    <form method="post" autocomplete="on" action="/home" >
+      <!--First name-->
+      <div class="box">
+        <label for="customer_name" class="fl fontLabel" > Service Code: </label>
+        <div class="fr">
+            <input type="text" name="customer_name" placeholder="code"
+            class="textBox" autofocus="on" required>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <!--First name-->
+  
+  
+      <!--Second name-->
+      <div class="box">
+        <label for="phone_number" class="fl fontLabel"> Mobile number: </label>
+        <div class="fr">
+            <input type="tel" required name="phno" pattern="^\d{10}$"
+            placeholder="phone number" class="textBox">
+        </div>
+        <div class="clr"></div>
+      </div>
+      
+      <div class="box radio">
+        <label for="occupation" class="fl fontLabel"> Worker: </label>
+          <input type="radio" name="worker" value="Carpenter" required> Carpenter &nbsp; &nbsp; &nbsp; &nbsp;
+          <input type="radio" name="worker" value="Mechanic" required> Mechanic
+        
+      </div>
+      <div class="box radio">
+        <label for="gender" class="fl fontLabel"> Addon: </label>
+          <input type="radio" name="worker" value="Plumber" required> Plumber &nbsp; &nbsp; &nbsp; &nbsp;
+          <input type="radio" name="worker" value="Painter" required> Painter
+        
+      </div>
+      
+  
+  
+      <!--Terms and Conditions------>
+      <div class="box terms">
+          <input type="checkbox" name="Terms" required> &nbsp; I accept the terms and conditions
+      </div>
+      <!--Terms and Conditions------>
+  
+  
+  
+      <!---Submit Button------>
+      <div class="box" style="background: #2d3e3f" >
+          <input  type="Submit" name="Submit" class="submit" value="SUBMIT">
+      </div>
+      <!---Submit Button----->
+    </form>
+  </div>
+
+  <div class="services"></div>
+  <div class="services-cont">
+    <ol >
+      <li>Cupboards</li>
+      <li>Doors</li>
+      <li>Piping</li>
+      <li>Iron Gates</li>
+      <li>Bike Work</li>
+      <li>House Paint</li>
+      <li>Furniture</li>
+    </ol> 
+  </div>
+
+  <div class="service-head">
+    <h1 style="font-family: sans-serif;">Service Codes</h1>
+  </div>
+
+  
+<div class="kit">
+  <div class="kit-cont">
+    <i class="fa-solid fa-toolbox"></i>
+  </div>
+</div>
+
+<div class="Notify">
+  <h1>Notify the Workers</h1>
+</div>
+
+
+
+<%- include('partials/footer') %>

@@ -1,0 +1,308 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+  /* background: url(http://wrbbradio.org/wp-content/uploads/2016/10/grey-background-07.jpg) no-repeat center fixed; */
+  background-size: cover;
+  background: url(https://getwallpapers.com/wallpaper/full/a/8/a/39899.jpg)
+}
+
+.container{
+	background: #2d3e3f;
+	width: 350px;
+	height: 277px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 20px 50px 20px 50px;
+  border: 10px solid #ff6600;
+  border-radius: 10px;
+  opacity: 0.9;
+  backdrop-filter: blur(90px);
+  box-shadow: 2px 2px 100px black;
+}
+
+
+.fl{
+	float: left;
+  width: 110px;
+  line-height: 35px;
+}
+
+.fontLabel{
+  color: white;
+  opacity: 1;
+}
+
+.fr{
+	float: right;
+}
+
+.clr{
+	clear: both;
+}
+
+.box{
+	width: 360px;
+	height: 35px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.textBox{
+	height: 35px;
+	width: 190px;
+	border: none;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.new{
+  float: left;
+}
+
+.iconBox{
+	height: 35px;
+	width: 40px;
+	line-height: 38px;
+	text-align: center;
+  background: #ff6600;
+  border-radius: 50%;
+}
+
+.radio{
+	color: white;
+	background: #2d3e3f;
+	line-height: 38px;
+}
+
+.terms{
+	line-height: 35px;
+	text-align: center;
+	background: #2d3e3f;
+	color: white;
+}
+.submit2{
+	float: right;
+	border: none;
+	color: white;
+	width: 360px;
+	height: 35px;
+	background: #ff6600;
+	text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 10px;
+  border-right: 0px;
+}
+.submit{
+	float: right;
+	border: none;
+	color: white;
+	width: 110px;
+	height: 35px;
+	background: #ff6600;
+	text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 20px;
+
+}
+.note{
+	background-color: white;
+	height: auto;
+	width: 400px;
+	position: absolute;
+	top: 72.3%;
+	left: 34.7%;
+	border: 10px solid blue;
+    padding: 10px;
+	border-radius: 10px;
+}
+.note-cont{
+	font-size: 20px;
+	
+	height: auto;
+	width: auto;
+}
+.services{
+	width: 400px;
+    height: 350px;
+    background-color: #ff6600;
+    position: absolute;
+    top: 26%;
+    left: 6%;
+    border-radius: 20%;
+    opacity: 1;
+    filter: blur(1px);
+    border: 10px solid #2d3e3f;
+	opacity: 0.7;
+}
+.services-cont{
+	width: 350px;
+    height: 268px;
+    position: absolute;
+    top: 31%;
+    left: 7.2%;
+    background-color: black;
+    border-radius: 15%;
+    padding-left: 32px;
+    padding-top: 20px;
+    opacity: 1;
+}
+ol{
+	font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+	margin-left: 20px;
+}
+.benifits{
+    width: 400px;
+    height: 350px;
+    background-color: black;
+    position: absolute;
+    top: 28%;
+    left: 3%;
+    border-radius: 20%;
+    opacity: 1;
+    filter: blur(1px);
+    border: 10px solid #2d3e3f;
+    
+}
+.benifits-cont{
+    width: 350px;
+    height: 268px;
+    position: absolute;
+    top: 33%;
+    left: 4.3%;
+    background-color: #2d3e3f;
+    border-radius: 15%;
+    padding-left: 28px;
+    padding-top: 20px;
+    opacity: 1;
+}
+.benifits-cont:hover{
+    opacity: 1;
+}
+.benifits-info{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.benifits-icon{
+	font-size: 70px;
+	position: absolute;
+	top: 18%;
+	left: 14%;
+}
+.service-head{
+	background-color: white;
+	border: 10px solid #ff6600;
+	padding: 10px;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	border-radius: 10px;
+	color: red;
+}
+.heading{
+	background-color: #2d3e3f;
+	height: auto;
+	width: auto;
+	position: absolute;
+	padding: 20px;
+	border: 10px solid #ff6600;
+	border-radius: 10px;
+	top: 16%;
+	left: 34.7%;
+	box-shadow: 2px 2px 100px black;
+}
+
+.heading-content h1 {
+	color: #fff;
+	font-family: sans-serif;
+	overflow: hidden; 
+	border-right: .15em solid orange; 
+	white-space: nowrap; 
+	margin: 0 auto; 
+	letter-spacing: .15em; 
+	animation: 
+	  typing 3s steps(30, end),
+	  blink-caret .5s step-end infinite;
+
+  }
+ 
+  
+
+  .slide {
+	min-width: 100%; 
+	padding: 20px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+  .kit{
+     position: absolute;
+	 top: 26%;
+	 left: 67%;
+	 width: auto;
+	 height: auto;
+	 padding: 20px;
+	 background-color: black;
+	 border-radius: 20px;
+	 border: 10px solid #ff6600;
+  }
+  .kit-cont{
+	font-size: 257px;
+	color: yellowgreen;
+  }
+  .Notify{
+	position: absolute;
+	top: 13%;
+	left: 38%;
+	background-color: white;
+	padding: 20px;
+	border: 10px solid #ff6600;
+	border-radius: 10px;
+	font-family: sans-serif
+  }
+.success{
+	height: auto;
+	width: auto;
+	background-color: white;
+	padding: 10px;
+	border: 10px solid #ff6600;
+	position: absolute;
+	top: 45%;
+	left: 20%;
+	border-radius: 10px;
+	
+}
+.success-content{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+  .user-gear{
+	color: white;
+	position: relative;
+	top:18%;
+	font-size: 80px;
+	left: 20%;
+ }
+  
+ 
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+
+}
+

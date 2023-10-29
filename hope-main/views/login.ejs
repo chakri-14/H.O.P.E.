@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HOPE</title>
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/7af8e79ade.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+
+.container{
+	background: #2d3e3f;
+	width: 324px;
+	height: 186px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 70px 50px 20px 50px;
+  border: 10px solid #ff6600;
+  border-radius: 10px;
+  z-index: 1;
+  align-items: center;
+  opacity: 0.7;
+}
+body{
+    background-size: cover;
+  background: url(https://images3.alphacoders.com/191/thumb-1920-191835.jpg)
+  
+}
+.box{
+	width: 322px;
+	height: 35px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.textBox{
+	height: 35px;
+	width: 190px;
+	border: none;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.fl{
+	float: left;
+  width: 110px;
+  line-height: 35px;
+}
+
+.fontLabel{
+  color: white;
+  opacity: 1;
+}
+.submit{
+	float: right;
+	border: none;
+	color: white;
+	width: 110px;
+	height: 35px;
+	background: #ff6600;
+	text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 20px;
+
+}
+.user-gear{
+   color: white;
+   position: absolute;
+   top:18%;
+   font-size: 80px;
+   left: 36%;
+}
+.head{
+
+  background-color: #2d3e3f;
+	height: auto;
+	width: auto;
+	position: absolute;
+	padding: 20px;
+	border: 10px solid #ff6600;
+	border-radius: 10px;
+	top: 15%;
+	left: 45%;
+	box-shadow: 2px 2px 100px black;
+}
+.head-content{
+  color: white;
+}
+</style>
+<>
+
+<i class="fa-solid fa-user-gear fa-beat-fade user-gear"></i>
+
+<div class="container">
+  <form action="/login" method="post">
+  <div class="box">
+    <label for="aadhaar" class="fl fontLabel"> Aadhaar: </label>
+    <div class="fr">
+        <input type="number" required name="aadhaar"
+        placeholder="Aadhaar no" class="textBox">
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="box">
+    <label for="password" class="fl fontLabel"> Password: </label>
+    <div class="fr">
+        <input type="password" required name="password"
+        placeholder="password" class="textBox">
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="box" style="background: #2d3e3f" >
+    <input  type="Submit" name="Submit" class="submit" value="SUBMIT">
+</div>
+</div>
+</form>
+</div>
+
+
+
+<!-- <form action="/login" method="post">
+  <label for="aadhaar">Aadhaar : </label>
+  <input type="number" name="aadhaar"><br>
+  <label for="password">Password : </label>
+    <input type="password" name="password"><br>
+    <button type="submit">Login</button>
+</form> -->
+
+
+<%- include('partials/footer') %>

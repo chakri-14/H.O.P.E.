@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HOPE</title>
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/7af8e79ade.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+    
+.container{
+	background: #2d3e3f;
+	width: 170px;
+	height: 140px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 70px 50px 20px 50px;
+  border: 10px solid #ff6600;
+  border-radius: 10px;
+  z-index: 1;
+  align-items: center;
+  border-top: 0px;
+  border-left: 0px;
+  box-shadow: 10px 10px 200px black;
+ 
+  
+}
+body{
+    background-size: cover;
+  background: url(https://wallpaperaccess.com/full/902817.jpg)
+  
+}
+.register-login{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #ff6600;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.register-login:hover{
+    size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: font-size 0.2s ease;
+}
+a:hover{
+    
+    font-size: 32px;
+}
+.animated-icon {
+    font-size: 200px;
+    animation: spin 4s linear infinite;
+    z-index: -1;
+    position: absolute;
+    top: 25%;
+    left: 36.5%;
+    color: #2d3e3f;
+    opacity: 1;
+    
+    
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.heading{
+    background-color:#2d3e3f;
+    align-items: center;
+    border: 10px solid #ff6600 ;
+    border-left: 0px;
+    border-top: 0px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #2d3e3f;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    border: 10px solid #ff6600;
+    border-radius: 20px;
+    background-color: #ff6600;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.info{
+    width: 400px;
+    height: 450px;
+    background-color: black;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    border-radius: 20%;
+    opacity: 1;
+    filter: blur(1px);
+    border: 10px solid #2d3e3f;
+    box-shadow: 2px 2px 200px black;
+}
+
+.info-content{
+    width: 350px;
+    height: 368px;
+    position: absolute;
+    top: 35%;
+    left: 4.3%;
+    background-color: #2d3e3f;
+    border-radius: 15%;
+    padding-left: 28px;
+    padding-top: 14px;
+    opacity: 0.6;
+}
+.info-content:hover{
+    opacity: 1;
+}
+p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.no2{
+    font-size: 150px;
+    animation: spin 2s linear infinite;
+    z-index: -1;
+    position: absolute;
+    top: 75%;
+    left: 23%;
+    color: #2d3e3f;
+
+}
+.twitter{
+    position: absolute;
+    font-size: 35px;
+    left: 19%;
+    top: 18%;
+    color: white;
+    box-shadow: 10px 10px 100px black;
+    transition: font-size 0.3s ease;
+}
+.twitter:hover{
+    color: aqua;
+    font-size: 42px; 
+}
+.icon{
+    width: 60px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 87%;
+    right: 7%;
+    padding-top: 10px;
+    border-radius: 50%;
+    padding-left: 2px;
+    box-shadow: 10px 10px 100px black;
+}
+.hand{
+    
+    font-size: 100px;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    color: white;
+}
+</style>
+
+<body>
+    <div class="heading">
+       <div class="box">
+           <h1>HOPE - HANDS OF PROVIDING EMPLOYMENT</h1>
+       </div>
+    </div>
+    <i class="fa fa-gear animated-icon"></i>
+    <div class="container">
+        
+        <div class="register-login">
+            
+            <a class="register"  href="/register">Register</a>
+        </div>
+        <div class="register-login">
+            <a href="/login">Login</a>
+        </div>
+         
+    </div>
+
+<div class="info"></div>
+<div class="info-content">
+    <p>This website is mainly  focusing on the employbility factor. Once you register in this you will get to be notified about the current works availability through direct customer feed.</p>
+</div>
+<i class="fa fa-gear  no2"></i>
+<div class="icon">
+    <i class="fa-brands fa-twitter twitter"></i>
+</div>
+<i class="fa-solid fa-handshake hand"></i>
+<!-- <a class="register"  href="/register">Register</a>
+    <a href="/login">Login</a> -->
+
+
+<%- include('partials/footer') %>

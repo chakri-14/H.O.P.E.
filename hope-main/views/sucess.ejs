@@ -1,0 +1,32 @@
+<%- include('partials/header') %>
+<body style="background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/308-name6031-ake.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=80&usm=15&vib=3&w=1300&s=65d36675f87278734ea2876c32c9b60e); background-repeat: no-repeat; width: 500px;">
+
+<div class="success">
+    <div class="success-content">
+       <h1>SUCESSFULLY POSTED !</h1>
+    </div>
+    <form action="/sucess" method="post">
+        <!-- <button class="success-home">HOME</button> -->
+        <div class="box" style="background: #2d3e3f" >
+            <input  type="Submit" name="Submit" class="submit2" value="Post Again">
+        </div>
+    </form>
+</div>
+
+<!-- <div>
+    <div>
+        <form action="/sucess" method="post" id="myForm">
+            <input type="text">
+            <input type="submit">
+        </form>
+    </div>
+</div> -->
+<script>
+    document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+});
+</script>
+
+
+
+<%- include('partials/footer') %>
